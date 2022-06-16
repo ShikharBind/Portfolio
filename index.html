@@ -1,1 +1,159 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="CSS/index.css" rel="stylesheet" type="text/css">
+    <title>Portfolio - Shikhar Bind</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'posts_app:index' %}">Portfolio - Shikhar Bind</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <section id="skills">
+            <h1>Skills</h1>
+
+            <!-- <h2>Game Development</h2> -->
+            <ul>
+                <li>Made both 2D and 3D games in <strong>Unity Game Engine</strong>.</li>
+                <li>Worked with <strong>Finite state machine</strong> to manage Game states and UI in games.</li>
+                <li>Worked with Netcodes - <strong>Unity MLAPI</strong> & <strong>Photon PUN</strong>.</li>
+                <li>
+                    Have a decent understanding of Scriptable objects, events, couroutines,
+                    async/await, UI in Unity.
+                </li>
+                <li>Worked with Web APIs in Unity to connect game to a database to save player data.</li>
+                <!-- <li>Worked with event based game architecture in a game.</li> -->
+            </ul>
+
+            <!-- <h2>Web Development</h2>
+            <ul>
+                <li>HTML,CSS,Javascript and Bootsrap in frontend.</li>
+                <li>Worked with Django Framework with PostgreSQL in backend</li>
+                <li>Worked with PHP and MySQL in backend.</li>
+            </ul> -->
+
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+
+            <div class="project">
+                <h2><a href="https://gdciitg.itch.io/campus-rush">Campus Rush</a></h2>
+
+                <iframe class="project-video" width="560" height="315" src="https://www.youtube.com/embed/brOVu8fyRcY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <h3>Overview</h3>
+                <p>
+                    A 3D virtual recreation of IIT Guwahati campus for the freshers to explore in the lieu of college
+                    having
+                    an online semester due to COVID 19. The game was made by a team of 10 people (6 artists and 4
+                    programmers)
+                    and was fully online and multiplayer.
+                </p>
+
+                <h3>Role</h3>
+                <p>Programmer</p>
+
+                <h3>Contribution</h3>
+                <ul>
+                    <li>
+                        Programmed game mechanics, scoring system, player movement and animation, UI and integrated
+                        different
+                        models with the programming interface to create a virtual recreation of IIT Guwahati using Unity
+                        Game Engine.
+                    </li>
+                    <li>
+                        Created Authentication System and linked game with MySQL Database using PHP APIs as a bridge
+                        between C# and MySQL
+                        to save player data and create an online realtime leaderboard.
+                    </li>
+                    <li>
+                        Worked on synchronization of events across the server and multiple clients for a multiplayer
+                        prototype of
+                        the game using Unity MLAPI Netcode.
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="project">
+                <h2><a href="https://shikharbind.itch.io/devour">Devour!!</a></h2>
+
+                <iframe class="project-video" width="560" height="315" src="https://www.youtube.com/embed/brOVu8fyRcY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <h3>Overview</h3>
+                <p>
+                    A tower defense type game where a farmer has to save his farm from enemies trying to destroy it.
+                    This game was made for the Respawn game jam on the theme “what you eat is what you make” within 10
+                    days
+                    by a team of 3 members (2 artists and 1 programmer).
+
+                </p>
+
+                <h3>Role</h3>
+                <p>Programmer</p>
+
+                <h3>Contribution</h3>
+                <ul>
+                    <li>Worked in game design of the game.</li>
+                    <li>programmed the game mechanics, ui and other events.</li>
+                    <li>Worked with animations in Unity.</li>
+                    <li>Designed UI using some given sprites.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about">
+            <h1>About me</h1>
+            <p>
+                An electrical and electronics engineering student of IIT Guwahati, currently
+                exploring different domains of Game Development and also interested in Web Development.
+            </p>
+        </section>
+        <section id="contact">
+            <h1>Contacts</h1>
+            <p><b>Mobile No.: </b>9648852059</p>
+            <p><b>Email ID: </b><a href="mailto:shikhar.bind2010@gmail.com">shikhar.bind2010@gmail.com</a></p>
+            <p><b>Email ID: </b><a href="mailto:b.shikhar@iitg.ac.in">b.shikhar@iitg.ac.in</a></p>
+        </section>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
