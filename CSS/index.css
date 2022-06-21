@@ -2,8 +2,14 @@ body {
     font-size: 1.2em;
 }
 
+.sections {
+    width: 95%;
+    margin: auto;
+}
+
 section {
     margin-top: 30px;
+    width: 100%;
 }
 
 #skills {
@@ -17,12 +23,30 @@ section {
 }
 
 .project-video {
-    float: right;
+    display: block;
+    /* width: 40%; */
     margin: 10px;
     /* width: 40vw;
     height: 22.5vw; */
-    width: 30vw;
-    height: 17vw;
+    /* width: 30vw;
+    height: 17vw; */
     /* width: 560px;
     height: 315px; */
+    aspect-ratio: 16/9;
+}
+
+@media screen and (orientation: portrait) {
+    .project-video {
+        clear: both;
+        margin: 10px auto;
+        width: 95%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .project-video {
+        float: right;
+        clear: right;
+        width: 40%;
+    }
 }
