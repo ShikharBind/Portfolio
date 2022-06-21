@@ -19,4 +19,10 @@ section {
 .project-video {
     float: right;
     margin: 10px;
+    /* width: 40vw;
+    height: 22.5vw; */
+    width: 30vw;
+    height: 17vw;
+    /* width: 560px;
+    height: 315px; */
 }
