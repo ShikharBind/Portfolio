@@ -22,6 +22,12 @@ section {
     padding: 10px;
 }
 
+.github-link {
+    float: right;
+}
+
+/* video style start */
+
 .project-video {
     display: block;
     /* width: 40%; */
@@ -50,3 +56,34 @@ section {
         width: 40%;
     }
 }
+
+/* end video style */
+
+/* Style all font awesome icons */
+.fa {
+    margin: 0px 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Linkedin */
+  /* .fa-linkedin {
+    background: white;
+    color: #55ACEE;
+  } */
+  
+  /* Instagram */
+  /* .fa-instagram {
+    background: white;
+    color: #55ACEE;
+  } */
+
+  /* end social media icon style */
