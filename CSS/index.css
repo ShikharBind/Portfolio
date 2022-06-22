@@ -62,7 +62,7 @@ section {
 /* Style all font awesome icons */
 .fa {
     margin: 0px 10px;
-    font-size: 30px;
+    /* font-size: 30px; */
     text-align: center;
     text-decoration: none;
   }
