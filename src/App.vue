@@ -63,12 +63,12 @@ h1, h2, h3, h4, h5 {
 }
 
 a {
-  color: @textColor;
+  color: white;//@textColor;
   text-decoration: none;
-  opacity: 0.5;
+  opacity: 1;
 }
 a:hover, .router-link-exact-active {
-  opacity: 1;
+  opacity: 0.7;
 }
 
 h1 {

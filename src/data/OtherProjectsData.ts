@@ -9,7 +9,7 @@ export default [
           <div class="paragraph">
             Main features :
             <ul>
-            <li>User registration, authentication, product listing, and profile management functionalities are implemente</li>
+            <li>User registration, authentication, product listing, and profile management functionalities are implemented.</li>
             <li>Designed intuitive layout and user interface using HTML, CSS, and Bootstrap.</li>
             <li>Django’s ORM is used to manage the database.</li>
             </ul>
@@ -17,7 +17,8 @@ export default [
 
         <div class="paragraph">
           <div class="notice">
-            Source code available on <a href="https://github.com/ShikharBind/GameEngine" target="_blank">GitHub</a>.
+          Website is live <a href="http://13.112.163.221:8000/" target="_blank">here</a>.
+            Source code available on <a href="https://github.com/ShikharBind/IITG-OLX" target="_blank">GitHub</a>.
           </div>
         </div>
 
@@ -29,7 +30,7 @@ export default [
     `, "#c10606"),
     new ProjectData("project-7", "Scotch Game Engine", "img/projects/project-6-icon.png", `
             <div class="paragraph">
-              <strong>Scotch</strong> is a 2D game engine using C++ on which one can make a 2D interactive software.
+              <strong>Scotch</strong> is a 2D game engine using <strong>C++</strong> on which one can make a 2D interactive software.
             </div>
 
             <div class="paragraph">
@@ -37,8 +38,8 @@ export default [
               <ul>
               <li>A graphics renderer is implemented using OpenGL from scratch.</li>
               <li>An event system is created which takes in input form mouse and keboard.</li>
-              <li>A versatile entity-component system is used to manage game objects and behaviors efficiently.</li>
-              <li>UI and docking is imelemeted using ImGui library. </li>
+              <li><strong>Entity-component system (ECS)</strong> is used to manage game objects and behaviors efficiently.</li>
+              <li>Editor UI and docking is imelemeted using <strong>ImGui</strong> library. </li>
               </ul>
             </div>
 
@@ -70,6 +71,9 @@ export default [
             It provides colour blindness correction shaders that compensate for colour vision deficiencies in real-time. 
             By applying appropriate colour transformations, the shaders enhance the visibility and
             distinguishability of visual elements for individuals with colour blindness.
+          </li>
+          <li>
+            A custom editor window and inspector have been developed to ensure a developer-friendly user interface.
           </li>
           </ul>
         </div>

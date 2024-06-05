@@ -23,47 +23,6 @@
     <div style="clear:both"></div>
 
     <div class="full-content">
-      <h2>Work experience</h2>
-
-      <h3>XR Developer - Parralax Labs - XROS Fellowship</h3>
-      <h4>Apr. 2023 - Jul. 2023</h4>
-
-      <div>
-      I have worked on two projects during this fellowship:<br />
-      - One is Angioplasty Simulator, an immersive Angioplasty VR Simulator using Unity, enabling medical professionals to practice
-      angioplasty procedures in a realistic virtual environment. Implemented player movement and user interface. 
-      Created a spline system using Bezier Curves for simulation of human arteries and various shaders in Shader Graph.
-      <br />
-      - Other is Visual Accessibility Toolkit, a Visual Accessibility Toolkit to simulate colorblindness for developers and make a color
-      correction filter for colorblind players using HLSL and Unity.
-      </div>
-
-      <div class="tech-stack">Unity, SteamVR, Shader Graph, HLSL, Git</div>
-
-      <h3>Secretary - GameDev and Esports Club, IIT Guwahati</h3>
-      <h4>May 2022 - Mar. 2023</h4>
-
-      <div>
-      - Reinstated and heading GameDev module of the club to promote game development culture in IIT Guwahati. <br />
-      - Organized a game development beginners' course and workshops with around 500 participants. <br /> 
-      - Led several game development projects.
-      </div>
-
-      <div class="tech-stack">Unity, C#, Git, Plastic SCM, Notion, Trello</div>
-
-      <!--<h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>-->
 
       <h2>Skills</h2>
 
@@ -117,6 +76,48 @@
       </div>
       
       <div style="clear:both" />
+
+      <h2>Work experience</h2>
+
+      <h3>XR Developer - Parralax Labs - XROS Fellowship</h3>
+      <h4>Apr. 2023 - Jul. 2023</h4>
+
+      <div>
+      I have worked on two projects during this fellowship:<br />
+      - One is Angioplasty Simulator, an immersive Angioplasty VR Simulator using Unity, enabling medical professionals to practice
+      angioplasty procedures in a realistic virtual environment. Implemented player movement and user interface. 
+      Created a spline system using Bezier Curves for simulation of human arteries and various shaders in Shader Graph.
+      <br />
+      - Other is Visual Accessibility Toolkit, a Visual Accessibility Toolkit to simulate colorblindness for developers and make a color
+      correction filter for colorblind players using HLSL and Unity.
+      </div>
+
+      <div class="tech-stack">Unity, SteamVR, Shader Graph, HLSL, Git</div>
+
+      <h3>Secretary - GameDev and Esports Club, IIT Guwahati</h3>
+      <h4>May 2022 - Mar. 2023</h4>
+
+      <div>
+      - Reinstated and heading GameDev module of the club to promote game development culture in IIT Guwahati. <br />
+      - Organized a game development beginners' course and workshops with around 500 participants. <br /> 
+      - Led several game development projects.
+      </div>
+
+      <div class="tech-stack">Unity, C#, Git, Plastic SCM, Notion, Trello</div>
+
+      <!--<h3>Operation Classified - Delta Force</h3>
+      <h4>2015-2017</h4>
+
+      <div>It's classified so I can't speak about it.</div>
+
+      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+
+      <h3>Operation Classified - Delta Force</h3>
+      <h4>2012-2015</h4>
+
+      <div>It's classified so I can't speak about it.</div>
+
+      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>-->
 
       <h2>Education</h2>
 

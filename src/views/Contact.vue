@@ -47,7 +47,20 @@
   </div>
 </template>
 
+<script lang="ts">
+import Vue from "vue";
+
+export default Vue.extend({
+  name: "Contact",
+});
+</script>
+
 <style scoped>
+
+h1 {
+  margin: 80px 0px 30px;
+}
+
 ul {
   list-style: none;
   padding-inline-start: 0px;

@@ -5,15 +5,23 @@
           <div
             :key="project.id"
               @click="showDetails(project)"
-              class="project-item"
-              :class="{ 'wide': project.isWide, 'high': project.isHigh }">
+              class="project-item">
+              
             <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
             </div>
-            <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
+
+
+            <!--div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
                 <div class="title-text">
                   {{ project.name }}
                 </div>
-              </div>
+              </div-->
+          
+          </div>
+
+          <div :key="project.id" class = "wide">
+            <h2> {{ project.name }} </h2>
+            <img :src="project.iconUrl">
           </div>
         </template>
       </div>
@@ -109,7 +117,7 @@ filter: brightness(120%);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    grid-auto-rows: minmax(250px, auto);
+    grid-auto-rows: minmax(200px, auto);
   }
 
   .project-item {
@@ -117,12 +125,16 @@ filter: brightness(120%);
     height: 100%;
     width: 100%;
   }
+  
+  .xwide {
+    grid-column-end: span 3;
+  }
 
   .wide {
     grid-column-end: span 2;
   }
   .high {
-    grid-row-end: span 2;
+    /*grid-row-end: span 2;*/
   }
 }
 

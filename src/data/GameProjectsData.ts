@@ -55,7 +55,7 @@ export default [
         <img class="phone-screenshot" src="img/projects/CampusRush/8Pzx1J.png" alt="Campus Rush Screenshot" />
         <img class="phone-screenshot" src="img/projects/CampusRush/DfhI6c.png" alt="Campus Rush Screenshot" />
     </div>
-    `, "#23bd69", true, true),
+    `, "#23bd69"),
     new ProjectData("project-2", "Chiranjeevi", "img/projects/Chiranjeevi/chiranjeevi-poster.png", `
     <div class="paragraph">
         <strong>Chiranjeevi</strong> is a <em>3D roguelike role</em> playing game about a character from Indian Mythology and his battles with Asuras. You play as Parshuram and your weapon is the Parshu. The current demo takes place when Parshuram is being trained by god Shiva. 
@@ -104,7 +104,7 @@ export default [
     <img class="phone-screenshot" src="img/projects/Chiranjeevi/n2y443.png" alt="Chiranjeevi Screenshot" />
     <img class="phone-screenshot" src="img/projects/Chiranjeevi/ktLJFX.png" alt="Chiranjeevi Screenshot" />
     </div>
-    `, "#5a78af",true),
+    `, "#5a78af"),
     new ProjectData("project-3", "Angioplasty VR Simulator", "img/projects/Angioplasty/angioplasty-icon.jpeg", `
     <div class="paragraph">
     <strong>Angioplasty VR Simulator</strong> is an application designed for users who wish to learn,
@@ -140,11 +140,11 @@ export default [
 
     <div class="paragraph center">
     <img class="phone-screenshot" src="img/projects/Angioplasty/ozu+wN.png" alt="Angioplasty Screenshot" />
-    <img class="phone-screenshot" src="img/projects/Angioplasty/_x0tJG.png" alt="Angioplasty Screenshot" />
+    <img class="phone-screenshot" src="img/projects/Angioplasty/x0tJG.png" alt="Angioplasty Screenshot" />
     <img class="phone-screenshot" src="img/projects/Angioplasty/Ohms4B.png" alt="Angioplasty Screenshot" />
     <img class="phone-screenshot" src="img/projects/Angioplasty/4h9WkX.png" alt="Angioplasty Screenshot" />
     </div>
-    `, "#383838", true),
+    `, "#383838"),
     new ProjectData("project-4", "Devour!!", "img/projects/Devour/icon.png", `
     <div class="paragraph">
     <strong>Devour</strong> is a 2D tower defense type game where a farmer has to save his farm from enemies who are trying to destroy it. 
@@ -190,7 +190,7 @@ export default [
     <img class="phone-screenshot" src="img/projects/Devour/oymYmx.png" alt="Devour Screenshot" />
     <img class="phone-screenshot" src="img/projects/Devour/gf8VTM.png" alt="Devour Screenshot" />
     </div>
-    `, "#e80fb7", false, true),
+    `, "#e80fb7"),
     new ProjectData("project-5", "Chess 2D", "img/projects/project-5-icon.png", `
     <div class="paragraph">
         <strong>Chess 2D</strong> is a cross-platform multiplayer 2D chess game using Unity game engine and C# in collaboration with a friend.
