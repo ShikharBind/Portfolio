@@ -1,7 +1,8 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Campus Rush", "img/projects/CampusRush/icon.png", 
+    new ProjectData("project-1", "Campus Rush", "img/projects/CampusRush/icon.png",
+        "A virtual recreation of IITG campus developed using Unity.", 
     `
     <div class="paragraph">
      <strong>Campus Rush</strong> is a <em>3D virtual recreation</em> of IIT Guwahati campus for the freshers to explore in the lieu of college having an online semester due to COVID 19. 
@@ -56,7 +57,8 @@ export default [
         <img class="phone-screenshot" src="img/projects/CampusRush/DfhI6c.png" alt="Campus Rush Screenshot" />
     </div>
     `, "#23bd69"),
-    new ProjectData("project-2", "Chiranjeevi", "img/projects/Chiranjeevi/chiranjeevi-poster.png", `
+    new ProjectData("project-2", "Chiranjeevi", "img/projects/Chiranjeevi/chiranjeevi-poster.png",
+        "A virtual recreation of IITG campus developed using Unity.", `
     <div class="paragraph">
         <strong>Chiranjeevi</strong> is a <em>3D roguelike role</em> playing game about a character from Indian Mythology and his battles with Asuras. You play as Parshuram and your weapon is the Parshu. The current demo takes place when Parshuram is being trained by god Shiva. 
         Enter the mayagoha(magical cave), fight monsters, gain punya and you might impress some gods and gain their blessings. 
@@ -105,7 +107,8 @@ export default [
     <img class="phone-screenshot" src="img/projects/Chiranjeevi/ktLJFX.png" alt="Chiranjeevi Screenshot" />
     </div>
     `, "#5a78af"),
-    new ProjectData("project-3", "Angioplasty VR Simulator", "img/projects/Angioplasty/angioplasty-icon.jpeg", `
+    new ProjectData("project-3", "Angioplasty VR Simulator", "img/projects/Angioplasty/angioplasty-icon.jpeg",
+        "A virtual recreation of IITG campus developed using Unity.", `
     <div class="paragraph">
     <strong>Angioplasty VR Simulator</strong> is an application designed for users who wish to learn,
     understand, and familiarise themselves with the angioplasty procedure through
@@ -145,7 +148,8 @@ export default [
     <img class="phone-screenshot" src="img/projects/Angioplasty/4h9WkX.png" alt="Angioplasty Screenshot" />
     </div>
     `, "#383838"),
-    new ProjectData("project-4", "Devour!!", "img/projects/Devour/icon.png", `
+    new ProjectData("project-4", "Devour!!", "img/projects/Devour/icon.png",
+        "A virtual recreation of IITG campus developed using Unity.", `
     <div class="paragraph">
     <strong>Devour</strong> is a 2D tower defense type game where a farmer has to save his farm from enemies who are trying to destroy it. 
     This game was made for the Respawn game jam on the theme “what you eat is what you make” within 10 days by a team of 3 members (2 artists and 1 programmer).
@@ -191,7 +195,8 @@ export default [
     <img class="phone-screenshot" src="img/projects/Devour/gf8VTM.png" alt="Devour Screenshot" />
     </div>
     `, "#e80fb7"),
-    new ProjectData("project-5", "Chess 2D", "img/projects/project-5-icon.png", `
+    new ProjectData("project-5", "Chess 2D", "img/projects/project-5-icon.png",
+        "A virtual recreation of IITG campus developed using Unity.", `
     <div class="paragraph">
         <strong>Chess 2D</strong> is a cross-platform multiplayer 2D chess game using Unity game engine and C# in collaboration with a friend.
         It is played by two opponents on a checkered board with specially designed pieces of contrasting colours, commonly white and black. 
@@ -217,7 +222,8 @@ export default [
     <div class="paragraph center">
     <img class="phone-screenshot" src="img/projects/Chess/i6Q1Xl.png" alt="Chess Screenshot" />
     </div>`, "#e48246"),
-    new ProjectData("project-06", "Ludo", "img/projects/Ludo/ludo-icon.jpg", `
+    new ProjectData("project-06", "Ludo", "img/projects/Ludo/ludo-icon.jpg",
+        "A virtual recreation of IITG campus developed using Unity.", `
     <div class="paragraph">
         <strong>Ludo</strong> is a strategy board game for two to four players, in which the players race their four tokens from start to finish according to the rolls of a single die.
     </div>

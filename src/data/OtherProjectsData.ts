@@ -1,7 +1,8 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-6", "IITG OLX", "img/projects/olx/icon.png", `
+    new ProjectData("project-6", "IITG OLX", "img/projects/olx/icon.png",
+      "A virtual recreation of IITG campus developed using Unity.", `
     <div class="paragraph">
       <strong>IITG OLX</strong> is an e-commerce website similar to OLX where one can sell or buy products using Django framework.
     </div>
@@ -28,7 +29,8 @@ export default [
           <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
         </div>-->
     `, "#c10606"),
-    new ProjectData("project-7", "Scotch Game Engine", "img/projects/project-6-icon.png", `
+    new ProjectData("project-7", "Scotch Game Engine", "img/projects/project-6-icon.png",
+      "A virtual recreation of IITG campus developed using Unity.", `
             <div class="paragraph">
               <strong>Scotch</strong> is a 2D game engine using <strong>C++</strong> on which one can make a 2D interactive software.
             </div>
@@ -53,7 +55,8 @@ export default [
                 <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
                 <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
             </div>-->`, "#1ca1e2"),
-    new ProjectData("project-8", "Visual Accessibility Toolkit", "img/projects/VAToolkit/icon.png", `
+    new ProjectData("project-8", "Visual Accessibility Toolkit", "img/projects/VAToolkit/icon.png",
+      "A virtual recreation of IITG campus developed using Unity.", `
         <div class="paragraph">
           <strong>Visual Acessibility Toolkit</strong> is a unity tool aimed at enhancing the experience of individals with colour vision deficiencies.<br />
         </div>

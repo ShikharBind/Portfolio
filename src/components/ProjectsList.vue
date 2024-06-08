@@ -7,8 +7,10 @@
               @click="showDetails(project)"
               class="project-item">
               
-            <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
-            </div>
+            <!--<div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
+            </div>-->
+
+            <img :src="project.iconUrl" class="project-item-image">
 
 
             <!--div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
@@ -19,9 +21,13 @@
           
           </div>
 
-          <div :key="project.id" class = "wide">
+          <div :key="project.id" 
+            @click="showDetails(project)"
+            class = "project-item wide">
+
             <h2> {{ project.name }} </h2>
-            <img :src="project.iconUrl">
+            <p> {{ project.description }} </p>
+
           </div>
         </template>
       </div>
@@ -84,9 +90,9 @@ export default Vue.extend({
 }
 
 .project-item-image {
-  background-size: cover;
+  /*background-size: cover;
   background-position: center;
-  height: 100%;
+  height: 100%;*/
   width: 100%;
   transition: all 0.2s;
 }
