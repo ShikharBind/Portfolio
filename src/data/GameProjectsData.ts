@@ -1,6 +1,62 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
+    new ProjectData("project-0", "Wickson - the Igniter", "img/projects/CampusRush/icon.png",
+        "A virtual recreation of IITG campus developed using Unity.", 
+    `
+    <div class="paragraph">
+     <strong>Campus Rush</strong> is a <em>3D virtual recreation</em> of IIT Guwahati campus for the freshers to explore in the lieu of college having an online semester due to COVID 19. 
+     The game was made by a team of 10 people (6 artists and 4 programmers) and was fully online and multiplayer.
+    </div>
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/jstBrhzECEk" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <!--div class="paragraph center">
+        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+    </div-->
+
+    <!--div class="paragraph">
+        Main features :
+        <ul>
+        <li>Some stuff</li>
+        <li>Some great stuff</li>
+        <li>More awesome stuff</li>
+        <li>And then some</li>
+        </ul>
+    </div-->
+
+    <div class="paragraph">
+        Role : Programmer <br />
+        <br />
+        Contribution :
+        <ul>
+            <li>
+            Programmed game mechanics, scoring system, player movement, animation, and UI in <b>Unity Game Engine</b> and <b>C#</b>.
+            </li>
+            <li>
+            Created authentication system and realtime leaderboard using <b>MySQL</b> database and <b>PHP</b> APIs, enhancing user experience
+            </li>
+            <li>
+            Implemented real-time gameplay synchronization between players over network connections using <b>Unity Netcode for GameObjects</b>.
+            </li>
+            <li>Used <b>Cinemachine</b> for handling camera movement.</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+        Windows build available on <a href="https://gdciitg.itch.io/campus-rush" target="_blank">itch.io</a>.
+        Source code is available on <a href="https://github.com/ShikharBind/CampusRush" target="_blank">GitHub</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="phone-screenshot" src="img/projects/CampusRush/EYEM15.png" alt="Campus Rush Screenshot" />
+        <img class="phone-screenshot" src="img/projects/CampusRush/Du66Fo.png" alt="Campus Rush Screenshot" />
+        <img class="phone-screenshot" src="img/projects/CampusRush/8Pzx1J.png" alt="Campus Rush Screenshot" />
+        <img class="phone-screenshot" src="img/projects/CampusRush/DfhI6c.png" alt="Campus Rush Screenshot" />
+    </div>
+    `, "#23bd69"),
     new ProjectData("project-1", "Campus Rush", "img/projects/CampusRush/icon.png",
         "A virtual recreation of IITG campus developed using Unity.", 
     `
