@@ -4,12 +4,13 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>Shikhar bind</strong>, a final year under graduate student at <em>Indian Institute of Technology Guwahati</em>, currently exploring different domains of <strong>Game Development</strong> and also interested in <strong>Web Development</strong>.<br/>
-        <br />I'm not one to limit myself to just one niche – I love the versatility of software development. Whether I'm diving into the intricacies of game programming or crafting sleek web interfaces, my passion lies in bringing ideas to life through lines of code.
+        I'm <strong>Shikhar bind</strong>, a recent graduate from <em>IIT Guwahati</em>, currently exploring different domains of <strong>Game Development</strong>. I am proficient in <em><strong>Unity</strong>, <strong>network programming</strong> and <strong>shader programming</strong></em>.<br/>
+        <br /> I have worked on a variety of <router-link to="/game-projects">Games</router-link> including <em>2D platformer, 3D roguelike, multiplayer, VR simulator, board</em> games as well as shaders.<br />
+        <br /> I have experience managing teams and projects as Secretary of IITG's Gamedev Club. My skills span C++, C#, Unity, HLSL, Django, and MySQL, with networking expertise in Photon PUN and Unity Netcode.
         <br />
       </div>
 
-      <div style="margin-top: 30px;">I've worked on  <router-link to="/game-projects">Games</router-link>, and on <router-link to="/game-projects"> some other projects</router-link>.<!--, and took part in <router-link to="/resume">a few things</router-link> as well.--></div>
+      <!--<div style="margin-top: 30px;">I've worked on  <router-link to="/game-projects">Games</router-link>, and on <router-link to="/game-projects"> some other projects</router-link>., and took part in <router-link to="/resume">a few things</router-link> as well.</div>-->
 
       <div style="margin-top: 40px;">Let's chat about how I can bring my skills and passion to your team. Drop me a line at <a href="mailto:shikhar.bind2010@gmail.com">shikhar.bind2010@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
       
@@ -21,7 +22,7 @@
     </div>
 
     <div class="photo">
-      <img src="img/avatar2.png" alt="Avatar of Shikhar"/> 
+      <img src="img/programmer.png" alt="Avatar"/> 
     </div>
 
     <div style="clear:both"></div>
@@ -39,21 +40,28 @@
       </div>
 
       <div class="skill-set">
-        <h3>GameDev & Networking</h3>
+        <h3>Game Development</h3>
         <div class="skill">Unity Game Engine</div>
         <div class="skill">HLSL</div>
         <div class="skill">Shader Graph</div>
-        <div class="skill">Photon PUN</div>
+      </div>
+
+      <div class="skill-set">
+        <h3>Networking<br> Stack</h3>
         <div class="skill">Unity Netcode</div>
+        <div class="skill">Photon PUN</div>
         <div class="skill">Socket Programming</div>
       </div>
 
-      <!--<div class="skill-set">
-        <h3>Networking</h3>
-        <div class="skill">Photon PUN</div>
-        <div class="skill">Unity Netcode</div>
-        <div class="skill">Socket Programming</div>
-      </div>-->
+      <div class="skill-set">
+        <h3>Programming Patterns</h3>
+        <div class="skill">ECS</div>
+        <div class="skill">Singleton</div>
+        <div class="skill">FSM</div>
+        <div class="skill">Observer</div>
+        <div class="skill">Mediator</div>
+        <div class="skill">MVC</div>
+      </div>
 
       <div class="skill-set">
         <h3>WebDev & Databases</h3>
@@ -82,7 +90,7 @@
       <div style="clear:both" />
 
       <h2>Work experience</h2>
-
+      
       <h3>XR Developer - Parralax Labs - XROS Fellowship</h3>
       <h4>Apr. 2023 - Jul. 2023</h4>
 
@@ -97,20 +105,20 @@
         </ul>
       </div>
 
-      <div class="tech-stack"><b>Tech stack: </b>Unity, SteamVR, Shader Graph, HLSL, Git</div>
+      <div class="tech-stack"><b>Tech stack: <i>Unity, SteamVR, Shader Graph, HLSL, Git</i></b></div>
 
       <h3>Secretary - GameDev and Esports Club, IIT Guwahati</h3>
       <h4>May 2022 - Mar. 2023</h4>
 
       <div>
         <ul class="experience-description-list">
-          <li> Reinstated and heading GameDev module of the club to promote game development culture in IIT Guwahati. </li>
+          <li> Reinstated and heading GameDev club to promote game development culture in IIT Guwahati. </li>
           <li> Organized a game development beginners' course and workshops with around 500 participants. </li>
           <li> Led several game development projects. </li>
         </ul>
       </div>
 
-      <div class="tech-stack"><b>Tech stack: </b>Unity, C#, Git, Plastic SCM, Notion, Trello</div>
+      <div class="tech-stack"><b>Tech stack: <i>Unity, C#, Git, Plastic SCM, Notion, Trello</i></b></div>
 
       <!--<h3>Operation Classified - Delta Force</h3>
       <h4>2015-2017</h4>
@@ -130,7 +138,7 @@
 
       <h3>Indian Institute of Technology Guwahati, India</h3>
       <h4>Bachelor of Technology (2020-2024)</h4>
-      <div>Currently pursuing B.tech in Electrical and Electronic Engineering.</div>
+      <div>Electrical and Electronic Engineering</div>
     </div>
   </div>
 </template>

@@ -1,8 +1,6 @@
 <template>
   <transition name="fade">
-    <div v-if="visible">
-      <div class="overlay">
-      </div>
+    <div v-if="visible" class="overlay">
       <div class="dialog" :style="{ 'background-color': color }">
         <h1 class="dialog-title">{{ title }}</h1>
         <div @click="$emit('close')" class="dialog-close"><i class="fa fa-times fa-lg fa-fw"></i></div>
@@ -23,10 +21,24 @@ import Vue from "vue";
 export default Vue.extend({
   name: "ProjectDetailsOverlay",
   props: {
-    visible: Boolean,
+    visible: {
+      type: Boolean,
+      required: true
+    },
     color: String,
     title: String,
     htmlContent: String,
+  },
+  watch: {
+    visible(newValue) {
+      if (newValue) {
+        document.body.classList.add('no-scroll');
+        console.log("run");
+      } else {
+        document.body.classList.remove('no-scroll');
+        console.log("run nos");
+      }
+    }
   },
   methods: {
     getImage: function(url: string) {
@@ -37,14 +49,20 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+
+
 .overlay {
   background-color: rgba(0,0,0,0.5);
   z-index: 10;
   position:fixed;
   top:0px;
   left:0px;
-  right:0px;
-  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto; /* Enable scrolling */
 }
 
 .dialog {

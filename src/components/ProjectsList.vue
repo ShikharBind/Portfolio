@@ -10,7 +10,7 @@
             <!--<div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
             </div>-->
 
-            <img :src="project.iconUrl" class="project-item-image">
+            <img :src="project.gifUrl" loading="lazy" class="project-item-image" :style="{'background-image': 'url(' + project.iconUrl + ')', 'background-color': '#333333'}">
 
 
             <!--div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
@@ -37,7 +37,7 @@
         :visible="showPopup"
         :title="popupTitle"
         :htmlContent="popupContent"
-        :color="popupColor"
+        color="#333333"
       />
     </div>
 </template>
@@ -72,7 +72,7 @@ export default Vue.extend({
       this.popupColor = item.accentColor;
       this.popupContent = item.htmlDescription;
       this.showPopup = true;
-      window.scrollTo(0,0);
+      //window.scrollTo(0,0);
     },
   },
 });
@@ -90,10 +90,11 @@ export default Vue.extend({
 }
 
 .project-item-image {
-  /*background-size: cover;
+  background-size: cover;
   background-position: center;
-  height: 100%;*/
+  /*height: 100%;*/
   width: 100%;
+  aspect-ratio: 19/11;
   transition: all 0.2s;
 }
 .project-item-image:hover {

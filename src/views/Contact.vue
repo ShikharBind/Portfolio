@@ -16,7 +16,7 @@
       </li>
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
-        <a href="mailto:shikhar.bind2010@gmail.com" target="_blank">shikhar.bind2010@gmail.com</a>
+        <a href="mailto:shikhar.gamedev@gmail.com" target="_blank">shikhar.gamedev@gmail.com</a>
       </li>
       <li>
         <i class="fa fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>

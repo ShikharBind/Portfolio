@@ -45,6 +45,10 @@ html, body {
   background-color: @bodyBgColor;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 #app {
   background-color: @contentBgColor;
   color: @textColor;
